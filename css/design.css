@@ -181,3 +181,19 @@ section{
       height: auto;
   }
 }
+
+@media(max-width: 200px){
+  .hero_text h1{
+      font-size: 15px;
+  }
+  .hero_text a{
+      font-size: 8px;
+  }
+  .hero-img{
+      width: 40%;
+  }
+  .hero-img img{
+      max-width: 40%;
+      height: auto;
+  }
+}
