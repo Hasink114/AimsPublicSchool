@@ -1,7 +1,6 @@
 *{
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
   box-sizing: border-box;
   font-family: 'Cormorant Garamond', serif;
   list-style: none;
@@ -21,12 +20,19 @@ header{
   background: transparent;
 }
 
+header h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
 .logo{
   width: auto;
   height: 100px;
 }
 
 .hero{
+  padding-top: 15em;
   height: 100%;
   width: 100%;
   min-height: 100vh;
@@ -52,9 +58,9 @@ section{
 }
 
 .hero_text h1{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 50px;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0 0 15px;
 }
 
@@ -69,6 +75,10 @@ section{
   text-transform: uppercase;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-bottom: 10px;
+}
+
+.hero_text h6{
+  font-size: 13px;
 }
 
 .hero_text a .ri-download-cloud-line {
@@ -142,6 +152,9 @@ section{
 }
 
 @media(max-width: 722px){
+  .header h1{
+      font-size: 35px;
+  }
   .hero_text h1{
       font-size: 35px;
   }
@@ -155,6 +168,9 @@ section{
 }
 
 @media(max-width: 630px){
+  .header h1{
+      font-size: 27px;
+  }
   .hero_text h1{
       font-size: 27px;
   }
@@ -165,9 +181,15 @@ section{
       max-width: 70%;
       height: auto;
   }
+  .hero_text h6{
+      font-size: 11px;
+  }
 }
 
 @media(max-width: 310px){
+  .header h1{
+      font-size: 20px;
+  }
   .hero_text h1{
       font-size: 20px;
   }
@@ -181,9 +203,15 @@ section{
       max-width: 50%;
       height: auto;
   }
+  .hero_text h6{
+      font-size: 8px;
+  }
 }
 
 @media(max-width: 200px){
+  .header h1{
+      font-size: 15px;
+  }
   .hero_text h1{
       font-size: 15px;
   }
@@ -196,5 +224,8 @@ section{
   .hero-img img{
       max-width: 40%;
       height: auto;
+  }
+  .hero_text h6{
+      font-size: 5px;
   }
 }
