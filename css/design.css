@@ -141,11 +141,43 @@ section{
 }
 
 @media(max-width: 722px){
+  .hero_text h1{
+      font-size: 35px;
+  }
   .hero-img{
-      width: 100%;
+      width: 90%;
   }
   .hero-img img{
-      max-width: 100%;
+      max-width: 90%;
+      height: auto;
+  }
+}
+
+@media(max-width: 630px){
+  .hero_text h1{
+      font-size: 27px;
+  }
+  .hero-img{
+      width: 70%;
+  }
+  .hero-img img{
+      max-width: 70%;
+      height: auto;
+  }
+}
+
+@media(max-width: 310px){
+  .hero_text h1{
+      font-size: 20px;
+  }
+  .hero_text a{
+      font-size: 10px;
+  }
+  .hero-img{
+      width: 50%;
+  }
+  .hero-img img{
+      max-width: 50%;
       height: auto;
   }
 }
