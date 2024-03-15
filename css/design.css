@@ -176,15 +176,17 @@ section{
   }
   .hero-img{
       width: 70%;
+      margin: 0 auto; /* Center the image */
   }
   .hero-img img{
-      max-width: 70%;
+      max-width: 100%;
       height: auto;
   }
   .hero_text h6{
       font-size: 11px;
   }
 }
+
 
 @media(max-width: 310px){
   .header h1{
