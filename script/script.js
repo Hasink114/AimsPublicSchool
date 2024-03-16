@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('.ctaa');
     links.forEach(function(link) {
         link.addEventListener('click', function(event) {
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
+*/
 
 const sr = ScrollReveal ({
     distance: '65px',
