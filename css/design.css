@@ -64,8 +64,15 @@ section{
   margin: 0 0 15px;
 }
 
-.hero_text a{
+.ctaa{
   display: block;
+}
+
+.ctaaa{
+  display: inline-block;
+}
+
+.ctaa, .ctaaa{
   color: white;
   background: rgb(235, 193, 5);
   padding: 12px 12px;
@@ -187,13 +194,12 @@ section{
   }
 }
 
-
 @media(max-width: 310px){
   .header h1{
       font-size: 20px;
   }
   .hero_text h1{
-      font-size: 15px;
+      font-size: 20px;
   }
   .hero_text a{
       font-size: 10px;
