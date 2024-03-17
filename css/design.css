@@ -175,7 +175,7 @@ section{
 }
 
 @media(max-width: 630px){
-  .header h1{
+  header h1{
       font-size: 27px;
   }
   .hero_text h1{
@@ -195,7 +195,7 @@ section{
 }
 
 @media(max-width: 310px){
-  .header h1{
+  header h1{
       font-size: 20px;
   }
   .hero_text h1{
@@ -217,7 +217,7 @@ section{
 }
 
 @media(max-width: 200px){
-  .header h1{
+  header h1{
       font-size: 15px;
   }
   .hero_text h1{
