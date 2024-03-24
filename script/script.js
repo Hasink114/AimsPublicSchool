@@ -1,3 +1,4 @@
+alert("A Practice paper is uploaded for your up comming maths paper.");
 
 const sr = ScrollReveal ({
     distance: '65px',
