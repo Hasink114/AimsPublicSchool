@@ -1,4 +1,4 @@
-alert("A Practice paper is uploaded for your up comming maths paper.");
+alert("New Practice paper will be uploaded before 3 days of next paper.");
 
 const sr = ScrollReveal ({
     distance: '65px',
